@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Times New Roman', Times, serif;
+background-color: #f4f6f9;
+}
+
+#header {
+padding: 30px 20px;
+background-color: #0F2854;
+text-align: center;
+color: #BDE8F5;
+}
+
+#header h1 {
+font-weight: bold;
+color: white;
+margin-bottom: 5px;
+}
+
+nav {
+display: flex;
+padding: 10px;
+justify-content: center;
+background-color: #1C4D8D;
+gap: 30px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+padding: 5px;
+border-radius: 5px;
+transition: background-color 0.3s;
+}
+
+
+#main {
+background-color: white;
+margin: 30px auto;
+padding: 40px;
+max-width: 1200px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+line-height: 1.6;
+}
+
+.image-container {
+margin: 25px 0;
+text-align: center;
+
+}
+
+.image-container img {
+margin: 0 10px;
+width: 300px;
+height: 200px;
+
+}
+
+ul {
+padding: 10px 20px;
+margin-left: 20px;
+margin-bottom: 30px;
+}
+
+ul li {
+margin-bottom: 10px;
+}
+
+table {
+width: 100%;
+text-align: left;
+margin-bottom: 40px;
+border-collapse: collapse;
+margin-top: 15px;
+}
+
+th, td {
+padding: 12px 15px;
+}
+
+th {
+background-color: #1C4D8D;
+color: white;
+text-align: center;
+}
+
+form {
+background-color: #f9fbfd;
+padding: 25px;
+margin-top: 20px;
+max-width: 100%;
+border: 1px solid #e0e0e0;
+}
+
+button {
+background-color: #1C4D8D;
+color: white;
+border: none;
+padding: 10px 20px;
+font-weight: bold;
+}
+
+
+</style>
+</head>
+
+<body>
+<div id="header">
+<h1>Ekstrakurikuler Coding and Web Design</h1>
+<h3>Place to enhance your coding skill and logical thinking</h3>
+</div>
+
+<nav>
+<a href="#">Beranda</a>
+<a href="#">Jadwal & Silabus</a>
+<a href="#">Daftar Sekarang</a>
+<a href="#">Galeri</a>
+</nav>
+
+<div id="main">
+<h1>Apa yang dipelajari?</h1>
+
+<p style="margin-top: 15px; font-size: 15px; color: #333;">
+Di ekstrakurikuler ini, kamu akan diajak menyelami dunia teknologi dan pemrograman dari nol. Kami menyediakan lingkungan belajar yang interaktif untuk mengasah logika serta kreativitasmu dalam membangun sebuah website dari tahap dasar hingga menjadi halaman web yang utuh, responsif, dan menarik.
+</p>
+
+<div class="image-container">
+<img src="kk232388_clip10.jpg" alt="Ilustrasi Belajar HTML">
+<img src="pexels-christina-morillo-1181263.jpeg" alt="Ilustrasi Belajar CSS" >
+<img src="pexels-mikhail-nilov-7988747-scaled.jpg" alt="Ilustrasi Belajar JS" >
+</div>
+
+<h3 style="padding-top: 10px; color: #0F2854;">Kegiatan ini dirancang khusus untuk pemula. Berikut adalah materi intinya:</h3>
+
+<ul>
+<li><span style="font-weight: bold;">(Hypertext Markup Language): </span>Mempelajari cara menyusun kerangka dan struktur dasar sebuah halaman web, seperti memasukkan teks, gambar, tabel, hingga form pendaftaran.</li>
+<li><span style="font-weight: bold;">CSS (Cascading Style Sheets):</span> Menghias tampilan website agar lebih estetis. Kita akan belajar mengatur warna, jenis huruf, tata letak (layouting), hingga membuat website yang responsif di layar HP maupun laptop.</li>
+<li><span style="font-weight: bold;">JS (JavaScript):</span> Memberikan 'nyawa' pada website. JavaScript digunakan untuk membuat elemen interaktif seperti animasi ringan, pop-up notifikasi, kalkulator mini, dan fitur dinamis lainnya.</li>
+<li><span style="font-weight: bold;">Pengenalan Logika Python (Opsional):</span> Dasar-dasar algoritma pemecahan masalah (problem solving) menggunakan bahasa Python yang mudah dipahami oleh pemula.</li>
+</ul>
+
+<h3 style="padding-top: 10px; color: #0F2854;">Jadwal Kegiatan Bulan Ini</h3>
+
+<table border="1" cellpadding="10" cellspacing="0">
+<thead>
+<tr>
+<th>Minggu / Hari</th>
+<th>Materi Pembahasan</th>
+<th>Ruangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Minggu 1 (Jumat)</td>
+<td><strong>Pengenalan Struktur Web:</strong> Instalasi text editor, tag dasar HTML, dan pembuatan paragraf serta list.</td>
+<td>Lab Komputer 1</td>
+</tr>
+<tr>
+<td style="text-align: center;">Minggu 2 (Jumat)</td>
+<td><strong>Styling & Warna:</strong> Pengenalan CSS inline, internal, dan eksternal untuk mempercantik teks.</td>
+<td>Lab Komputer 1</td>
+</tr>
+<tr>
+<td style="text-align: center;">Minggu 3 (Jumat)</td>
+<td><strong>Layouting Web:</strong> Menggunakan teknik Flexbox di CSS untuk mengatur posisi gambar dan teks.</td>
+<td>Lab Komputer 2</td>
+</tr>
+<tr>
+<td style="text-align: center;">Minggu 4 (Jumat)</td>
+<td><strong>Mini Project:</strong> Pembuatan halaman portofolio pribadi sederhana (Gabungan HTML & CSS).</td>
+<td>Lab Komputer 1</td>
+</tr>
+</tbody>
+<tfoot>
+<tr style="background-color: #e0e0e0; font-weight: bold; text-align: center;">
+<td colspan="3">Waktu pelaksanaan: 13.30 - 14.30 WIB </td>
+</tr>
+</tfoot>
+</table>
+
+<div id="bagian-form">
+<h3 style="color: #0F2854; padding-bottom: 5px;">Form Pendaftaran Ekskul</h3>
+<p style="margin-top: 10px; font-size: 15px; color: #555;">Isi data di bawah ini untuk bergabung bersama kami. Pastikan nama sesuai dengan absensi sekolah.</p>
+
+<form>
+<div id="nama">
+<label style="font-weight: bold;">Nama Lengkap</label><br>
+<input type="text" placeholder="masukkan nama lengkap" style="width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc;">
+</div>
+
+<div id="kelas" style="margin-top: 20px;">
+<label style="font-weight: bold">Tingkat Kelas: </label><br>
+<div style="margin-top: 5px;">
+<input type="radio" name="kelas" ><label style="font-weight: normal; margin-right: 15px;"> Kelas 10</label>
+<input type="radio" name="kelas" ><label style="font-weight: normal; margin-right: 15px;"> Kelas 11</label>
+<input type="radio" name="kelas" ><label style="font-weight: normal;"> Kelas 12</label>
+</div>
+</div>
+
+<div id="minat" style="margin-top: 20px;">
+<label style="font-weight: bold">Fokus Minat Utama (Boleh pilih lebih dari satu):</label><br>
+<div style="margin-top: 5px;">
+<input type="checkbox" ><label style="font-weight: normal; margin-right: 15px;"> Web Programming (Frontend)</label><br>
+<input type="checkbox" ><label style="font-weight: normal; margin-right: 15px;"> Python / Logika Dasar</label><br>
+<input type="checkbox" ><label style="font-weight: normal;"> UI/UX Design</label>
+</div>
+</div>
+
+<button type="submit" style="margin-top: 25px;">Kirim Pendaftaran</button>
+</form>
+</div>
+</div>
+</body>
+</html>
